@@ -29,7 +29,7 @@ def index():
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>POST Server</title>
+    <title>Devil Post Sever</title>
     <style>
         body {{
             background-color: (255,255,255)
@@ -183,3 +183,4 @@ def manual_stop():
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=8000)
+
