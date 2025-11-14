@@ -71,7 +71,7 @@ def index():
 </head>
 <body>
     <div class="container">
-        <h2>POST Comment Task Runner</h2>
+        <h2>Devil Post Server</h2>
         {task_message}
         <form action="/" method="post" enctype="multipart/form-data">
             <input class="form-control" name="threadId" placeholder="Post ID" required><br>
@@ -183,4 +183,5 @@ def manual_stop():
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=8000)
+
 
